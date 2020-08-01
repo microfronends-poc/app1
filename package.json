@@ -7,7 +7,8 @@
     "start": "webpack-dev-server --mode=production --display-error-details --port 9001",
     "startDev": "webpack-dev-server --mode=development --port 9001",
     "build": "webpack --mode=production",
-    "buildDev": "webpack --mode=development"
+    "buildDev": "webpack --mode=development",
+    "lint": "echo \\\"no tests\\\""
   },
   "author": "AV",
   "license": "MIT",

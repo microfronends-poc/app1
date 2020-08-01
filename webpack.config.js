@@ -9,7 +9,7 @@ module.exports = (env, { mode }) => {
 	return {
 		entry: production ? path.resolve(__dirname, 'src/root.js') : path.resolve(__dirname, 'src/app.js'),
 		output: {
-			filename: production ? '@mf-app1.js' : 'app1.js',
+			filename: production ? 'mf-app1.js' : 'app1.js',
 			libraryTarget: production ? 'system' : undefined,
 			path: path.resolve(__dirname, 'dist'),
 		},
